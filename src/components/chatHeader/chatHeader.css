@@ -1,0 +1,23 @@
+.chat-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2c68fa;
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+}
+
+.chat-header__heading {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+.close-icon {
+  padding: 10px;
+  width: 20px;
+  height: 100%;
+}
+
+/*# sourceMappingURL=chatHeader.css.map */

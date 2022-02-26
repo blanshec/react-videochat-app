@@ -1,0 +1,12 @@
+{
+  "Routes": {
+    "Join": {
+      "heading": "Welcome to The Chatroom",
+      "nameInput": "Name",
+      "roomInput": "Room"
+    },
+    "Chat": {
+      "textInput": "Type your message here"
+    }
+  }
+}

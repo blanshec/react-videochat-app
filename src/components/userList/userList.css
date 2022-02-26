@@ -1,0 +1,28 @@
+.user-list {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #2c68fa;
+  height: 580px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 0 0 0 30px;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-list > h4 {
+  margin: 0 0 10px 0;
+}
+
+.active-container {
+  display: flex;
+  align-items: center;
+}
+
+.active-user {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=userList.css.map */

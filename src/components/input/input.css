@@ -1,0 +1,30 @@
+.form {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  border-top: 1px solid #D3D3D3;
+}
+
+.form__input {
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+.form__button_send {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #2c68fa;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+}
+
+/*# sourceMappingURL=input.css.map */

@@ -1,0 +1,88 @@
+.message__container_current-user {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 2%;
+  margin-top: 5px;
+}
+
+.message__box_current-user {
+  background: #F3F3F3;
+  border-radius: 10px;
+  padding: 1px 10px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.message__text_current-user {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+
+  width: 100%;
+  margin: 10px 0 10px 0;
+  letter-spacing: 0;
+  float: right;
+  font-size: 1em;
+  word-wrap: break-word;
+}
+
+.message__timestamp_current-user {
+  font-family: 'Roboto', sans-serif;
+  color: #838383;
+  font-size: .5em;
+  margin: 0;
+  padding: 0 0 2px 0;
+  float: right;
+}
+
+
+.message__container_other-user {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 2%;
+  margin-top: 5px;
+}
+
+.message__box_other-user {
+  background: #4b8aff;
+  border-radius: 10px;
+  padding: 1px 10px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.message__text_other-user {
+  font-family: 'Roboto', sans-serif;
+
+  width: 100%;
+  margin: 10px 0 10px 0;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1em;
+  word-wrap: break-word;
+}
+
+.sent-text {
+  display: flex;
+  align-items: center;
+  color: #828282;
+  letter-spacing: 0.3px;
+}
+
+.message__timestamp_other-user {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: .5em;
+  margin: 0;
+  padding: 0 0 2px 0;
+  float: left;
+}
+
+.message__container_current-user > .sent-text {
+  padding: 0 10px 0 0;
+}
+
+.message__container_other-user > .sent-text {
+  padding: 0 0 0 10px;
+}
