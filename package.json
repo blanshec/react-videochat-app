@@ -42,8 +42,10 @@
     ]
   },
   "devDependencies": {
+    "@types/simple-peer": "^9.11.4",
     "query-string": "^7.1.1",
     "react-router-dom": "^6.2.1",
-    "sass": "^1.49.8"
+    "sass": "^1.49.8",
+    "simple-peer": "^9.11.1"
   }
 }

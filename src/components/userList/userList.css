@@ -2,7 +2,6 @@
   font-family: "Roboto", sans-serif;
   color: white;
   background-color: #2c68fa;
-  height: 580px;
   box-sizing: border-box;
   border-radius: 5px;
   margin: 0 0 0 30px;
@@ -15,14 +14,100 @@
   margin: 0 0 10px 0;
 }
 
-.active-container {
+.active-container > p {
   display: flex;
   align-items: center;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
 }
 
 .active-user {
   display: flex;
   align-items: center;
+  margin: 0 10px 0 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.active-user:nth-child(1) {
+  color: #c4b1c2;
+}
+
+.active-user:nth-child(2) {
+  color: #b0183d;
+}
+
+.active-user:nth-child(3) {
+  color: #d7949a;
+}
+
+.active-user:nth-child(4) {
+  color: #1590fb;
+}
+
+.active-user:nth-child(5) {
+  color: #bb8531;
+}
+
+.active-user:nth-child(6) {
+  color: #4f4085;
+}
+
+.active-user:nth-child(7) {
+  color: #23affd;
+}
+
+.active-user:nth-child(8) {
+  color: #e3e4cc;
+}
+
+.active-user:nth-child(9) {
+  color: #43ee2d;
+}
+
+.active-user:nth-child(10) {
+  color: #9d8c43;
+}
+
+.active-user:nth-child(11) {
+  color: #e52ed5;
+}
+
+.active-user:nth-child(12) {
+  color: #15bcbe;
+}
+
+.active-user:nth-child(13) {
+  color: #57e414;
+}
+
+.active-user:nth-child(14) {
+  color: #79b965;
+}
+
+.active-user:nth-child(15) {
+  color: #5ed9d3;
+}
+
+.active-user:nth-child(16) {
+  color: #ff4d6c;
+}
+
+.active-user:nth-child(17) {
+  color: #d63615;
+}
+
+.active-user:nth-child(18) {
+  color: #ff9ce2;
+}
+
+.active-user:nth-child(19) {
+  color: #f4c5dc;
+}
+
+.active-user:nth-child(20) {
+  color: #bc0ec8;
 }
 
 /*# sourceMappingURL=userList.css.map */

@@ -1,10 +1,13 @@
+@mixin random-font(){
+  color: rgb(random(255), random(255), random(255));
+}
+
 .user-list {
   font-family: 'Roboto', sans-serif;
   color: white;
 
   background-color: #2c68fa;
 
-  height: 580px;
   box-sizing: border-box;
   border-radius: 5px;
   margin: 0 0 0 30px;
@@ -18,12 +21,24 @@
   margin: 0 0 10px 0;
 }
 
-.active-container {
+.active-container > p {
   display: flex;
   align-items: center;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
 }
 
 .active-user {
   display: flex;
   align-items: center;
+  margin: 0 10px 0 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@for $i from 1 through 20 {
+  .active-user:nth-child(#{$i}) {
+    @include random-font;
+  }
 }
